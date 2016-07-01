@@ -1,0 +1,153 @@
+.none {
+  display: none !important;
+}
+
+body {
+  background: rgba(0, 102, 255, 0.38);
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+h3 {
+  padding: 0 0 0 5px;
+  margin: 0 0 5px 0;
+}
+
+.top {
+  width: 100%;
+  vertical-align: top;
+}
+
+.table__chat_row {
+  width: 100%;
+}
+
+.weather {
+  margin: 26px 5px 0px 0;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  width: 218px;
+  height: 525px;
+  padding: 5px;
+}
+
+.contact__list {
+  overflow: auto;
+  height: 500px;
+}
+.contact {
+  background: #DDD;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+}
+.contact__count {
+  margin: 10px 0 0 0;
+  display: block;
+}
+.message, .witem {
+  background: #DDD;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+}
+.witem {
+  padding: 0;
+  margin: 0;
+}
+
+.contact__nick {
+}
+.contact__nick_self {
+  font-weight: bold;
+}
+.contact__about {
+  font-size: 15px;
+  color: #777;
+  cursor:pointer;
+}
+.message__text {
+  font-size: 15px;
+}
+.contact__status_ext {
+  color: #777;
+}
+
+.message__list {
+  margin: 0 5px 5px 0;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+  overflow: auto;
+  height: 465px;
+}
+.add {
+  margin: 0 5px 5px 0;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+  width: 210px;
+}
+.add__author, .add__text, .add__btn, .add__checkrule {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  width: 94%;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+}
+.add__checkrule {
+  border: none;
+  font-size: 12px;
+}
+.add__btn {
+  box-sizing: content-box;
+  color: #FFF;
+  background: #007DDC;
+}
+.add__btn:disabled {
+  background: #CCC;
+  color: #999;
+}
+.upper {
+  text-transform: uppercase;
+}
+
+.add_message__form {
+  margin: 0 5px 5px 0;
+  height: 45px;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+}
+.flexible_div {
+  display: flex;
+}
+
+.add_message__text {
+  display: block;
+  margin: 0 5px 5px 0;
+  padding: 5px;
+  width: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+}
+.add_message__btn {
+  box-sizing: content-box;
+  color: #FFF;
+  background: #007DDC;
+  width: 75px;
+  height: 35px;
+}
+.add_message__btn:disabled {
+  background: #CCC;
+  color: #999;
+}
+
+.chat {
+  margin: 0 5px 5px 0;
+  width: 100%;
+  border: 1px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+}

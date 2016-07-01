@@ -1,0 +1,14 @@
+{
+  "name": "redux-ru-tutorial",
+  "version": "1.0.0",
+  "description": "Chat",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Alexey Filin",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
