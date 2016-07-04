@@ -1,7 +1,7 @@
 {
-  "name": "redux-ru-tutorial",
+  "name": "Chat",
   "version": "1.0.0",
-  "description": "Chat",
+  "description": "Chat based on ReactJS",
   "main": "index.html",
   "scripts": {
     "start": "node server.js"
